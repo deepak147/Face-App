@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block bodyblock %}
+    <div class="container">
+        <br>
+        <h3 class="content">Face App</h3>
+
+        <p class="content"><br>
+            This app is driven by data and deep-learning models.
+            Faces are detected by MTCNN and restructured to make sure image is centered. 
+            The centered image is used for gender and emotion prediction of the human faces present. 
+            CNN models are built to predict gender and emotion. End-End application is built with use of Flask.
+        </p>
+
+        <div align="center">
+            <a class="btn btn-outline-primary" href="{{ url_for('gender_emotion') }}">Try it now</a>
+        </div>
+       
+    </div>
+
+
+{% endblock  %}
