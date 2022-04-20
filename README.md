@@ -2,9 +2,9 @@
 Detects gender and emotion of human faces present in an image.
 
 ## Gender Detection
-Classification is done by a deep learning CNN model which classifies the image into male/female.
+Classification is done by a deep learning CNN model which classifies the image into male/female. 
 
-## Emtion Detection
+## Emotion Detection
 Classification is done by a deep learning CNN model which classifies the image into one of seven different emotions as listed below.
    - Anger
    - Contempt 
